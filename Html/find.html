@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="demo"></p> -->
+    <p>Enter the Number</p>
+    <input type="text" name="n" id="N"></br></br>
+    <button type="button" onclick="factorial()">Factorial</button>
+    <button type="button" onclick="fibonacci()">Fibonacci</button>
+    <button type="button" onclick="prime()">Prime</button>
+    <button type="button" onclick="palindrome()">Palindrome</button>
+    <script>
+        function palindrome()
+        {
+            var rem,temp,rev=0;
+            let num=Number(document.getElementById('N').value);
+            temp=num;
+            while(num>0)
+            {
+                rem=num%10;
+                rev=(rev*10)+rem;
+                num=parseInt(num/10);
+            }
+            if(temp==rev)
+            {
+                window.alert("The number is palindrome");
+            }
+            else
+			{
+				window.alert("The number is not palindrome");
+			}
+        }
+        function factorial()
+        {
+            let num=Number(document.getElementById('N').value);
+            let i=1,pro=1;
+            while(i<=num)
+            {
+                pro=pro*i;
+                i=i+1;
+            }
+            document.write("The factorial of given number is"+" "+pro);
+        }
+        function prime()
+        {
+            let num=Number(document.getElementById('N').value);
+            // if(num==0||num==1)
+            // document.writeln("-1");
+            let i=2;
+            while(i<=num)
+            {
+                let j=2,flag=1;
+                while(j<=parseInt(i/2))
+                {
+                    if(i%j==0)
+                    {
+                        flag=0;
+                        break;
+                    }
+                    j=j+1;
+                }
+                if(flag==1)
+                document.writeln(i+" ")
+                i=i+1;
+            }
+            document.write("The factorial of given number is"+" "+pro);
+        }
+        function fibonacci()
+        {
+            var number= Number(document.getElementById("N").value);
+            let a=0;
+            document.write(a+" ");
+            let b=1;
+            document.write(b+" ");
+            let c=a+b;
+            document.write(c+" ");
+            while(c<number)
+            {
+                a=b;
+                b=c;
+                c=a+b;
+                document.write(c+" ");
+            }
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    background-color: ghostwhite;
+}
+h4{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h5{
+    float: right;
+    font-size: medium;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p1{
+    width: auto;
+    height: 50px;
+}
+.p2{
+    width: 100%;
+    height: 590px;
+   
+}
+.p21{
+    height: 91%;
+    width: 4%;
+    float:left;
+    margin-right: -400px;
+}
+.p22{
+    width: 1160px;
+	height: 500px;
+	margin-left: 150px;
+	margin-right: 20px;	
+	border-radius: 20px;
+	float: right;
+    box-shadow: 5px 5px 15px 10px #888888;
+	overflow-y: scroll;
+}
+.p222{
+    width:1130px;
+    height: 90px;
+    
+}
+.p223{
+    width:1110px;
+    height: 370px;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 15px 10px #888888;
+    border-radius: 10px;
+}
+.p2231{
+    height:370px;
+    width:380px;
+    float:right;
+    border-bottom-right-radius: 10px;
+}
+.p22311{
+    height:185px;
+    width:380px;
+    float:right;
+    background-color: orange;
+    border-top-right-radius: 10px;
+    
+}
+.p22312{
+    height:185px;
+    width:380px;
+    float:right;
+    background-color: olivedrab;
+    border-bottom-right-radius: 10px;
+
+}
+.p2232{
+    height:370px;
+    width:730px;
+    float:left;
+
+}
+.scan_here
+{
+	background: white;
+	box-shadow: 2px 2px 5px 5px #40bf40;
+	width: 500px;
+	height: 120px;
+	margin-left: 100px;
+	margin-top: 45px;
+	margin-right: 100px;
+}
+.stu_img
+{
+	background: orange;
+	width: 120px;
+	height: 140px;
+	float: left;
+	margin-left: 10px;
+}
+.stu_inf
+{
+	width: 600px;
+	height: 200 px;
+	float: right;
+	margin-top: 35px;
+}
+table
+{
+	margin-top: 5px;
+	height: 130px;
+    margin-left: 6px;
+}
